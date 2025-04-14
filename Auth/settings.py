@@ -20,8 +20,9 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",     # direct IP access
-    "localhost",     # localhost name
+    "127.0.0.1",     
+    "localhost",     
+    "https://projectaut.netlify.app/",
 ]
 
 # Application definition
