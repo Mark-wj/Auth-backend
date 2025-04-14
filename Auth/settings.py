@@ -23,6 +23,7 @@ ALLOWED_HOSTS = [
     "127.0.0.1",     
     "localhost",     
     "https://projectaut.netlify.app/",
+    "https://auth-backend-production-936e.up.railway.app",
 ]
 
 # Application definition
