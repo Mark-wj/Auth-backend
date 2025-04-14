@@ -19,12 +19,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 
-ALLOWED_HOSTS = [
-    "127.0.0.1",     
-    "localhost",     
-    "https://projectaut.netlify.app/",
-    "https://auth-backend-production-936e.up.railway.app",
-]
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
